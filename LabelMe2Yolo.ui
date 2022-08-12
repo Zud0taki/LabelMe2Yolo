@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>616</width>
-    <height>320</height>
+    <height>361</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -100,7 +100,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Textdateien - Pfad</string>
+     <string>JSON - Pfad</string>
     </property>
    </widget>
    <widget class="QLabel" name="imageLabel">
@@ -230,6 +230,19 @@
     </property>
     <property name="text">
      <string>Output-Pfad</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="logBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>561</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
