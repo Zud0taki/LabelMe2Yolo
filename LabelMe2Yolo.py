@@ -9,12 +9,12 @@ def main(img_folder, json_folder, out_folder):
     json_input = []
 
     # read images from path
-    img_folder = img_folder + "/*.tif"
+    img_folder = img_folder + "/*.tif"  # TODO: add functionality for more extensions via GUI
     for image in glob.glob(img_folder):
         img_input.append(image)
 
     # read json files from path
-    json_folder = json_folder + "/*.json"
+    json_folder = json_folder + "/*.json"  # TODO: add functionality for more extensions via GUI
     for text in glob.glob(json_folder):
         json_input.append(text)
 
