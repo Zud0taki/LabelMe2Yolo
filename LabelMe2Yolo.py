@@ -9,7 +9,7 @@ def main(img_folder, json_folder, out_folder):
     json_input = []
 
     # read images from path
-    img_folder = img_folder + "/*.jpg"
+    img_folder = img_folder + "/*.tif"
     for image in glob.glob(img_folder):
         img_input.append(image)
 
